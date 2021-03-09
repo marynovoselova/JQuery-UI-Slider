@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuery UI Slider</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__label">
+            Selected
+        </div>
+        <button id="textColor" class="header__btn" onclick="onClickButton()">
+            color
+        </button>
+        <button id="backgroundColor" class="header__btn" onclick="onClickButton()">
+            backgroundColor
+        </button>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="slider_first">
+                <div id="red"></div>
+                <div id="green"></div>
+                <div id="blue"></div>
+            </div>
+            <div class="slider_second" style="display: none">
+                <div id="red2"></div>
+                <div id="green2"></div>
+                <div id="blue2"></div>
+            </div>
+        </div>
+        <div id="square" class="ui-widget-content ui-corner-all"><p id="text">
+            alalalalalallalalalalallalalalalalalalalalalallalalalalallalalalalalalalalalalalallalalalalallalalalalala
+        </p></div>
+    </main>
+</body>
+</html>
