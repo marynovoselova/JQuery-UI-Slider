@@ -1,0 +1,1 @@
+![slider](./screenshots/slider.png "slider")
